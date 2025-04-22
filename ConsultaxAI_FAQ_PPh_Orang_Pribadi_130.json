@@ -1,0 +1,782 @@
+[
+  {
+    "question": "Apa itu Pajak Penghasilan (PPh) Orang Pribadi?",
+    "answer": "PPh Orang Pribadi adalah pajak yang dikenakan atas penghasilan yang diterima atau diperoleh oleh orang pribadi dalam negeri maupun luar negeri sesuai ketentuan Undang-Undang Pajak Penghasilan.",
+    "category": "Konsep PPh Orang Pribadi",
+    "source": "UU PPh Pasal 2 dan 4"
+  },
+  {
+    "question": "Apa saja jenis penghasilan yang dikenakan PPh Orang Pribadi?",
+    "answer": "Jenis penghasilan yang dikenakan PPh OP meliputi gaji, honorarium, hadiah, laba usaha, sewa, dividen, bunga, royalti, dan penghasilan lainnya sebagaimana diatur dalam UU PPh.",
+    "category": "Konsep PPh Orang Pribadi",
+    "source": "UU PPh Pasal 4 ayat (1)"
+  },
+  {
+    "question": "Siapa yang wajib membayar PPh Orang Pribadi?",
+    "answer": "Setiap orang pribadi yang telah memenuhi syarat sebagai subjek pajak dan memperoleh penghasilan dalam satu tahun pajak melebihi PTKP.",
+    "category": "Konsep PPh Orang Pribadi",
+    "source": "UU PPh Pasal 2 dan 7"
+  },
+  {
+    "question": "Apa yang dimaksud dengan Tahun Pajak?",
+    "answer": "Tahun Pajak adalah jangka waktu satu tahun kalender, kecuali Wajib Pajak menggunakan tahun buku yang tidak sama dengan tahun kalender.",
+    "category": "Konsep PPh Orang Pribadi",
+    "source": "UU KUP Pasal 1 angka 6"
+  },
+  {
+    "question": "Apa pengertian penghasilan menurut UU PPh?",
+    "answer": "Penghasilan adalah setiap tambahan kemampuan ekonomis yang diterima atau diperoleh Wajib Pajak, baik dari Indonesia maupun luar Indonesia.",
+    "category": "Konsep PPh Orang Pribadi",
+    "source": "UU PPh Pasal 4 ayat (1)"
+  },
+  {
+    "question": "Apa itu penghasilan kena pajak?",
+    "answer": "Penghasilan kena pajak adalah penghasilan neto Wajib Pajak dalam negeri setelah dikurangi dengan Penghasilan Tidak Kena Pajak (PTKP).",
+    "category": "Konsep PPh Orang Pribadi",
+    "source": "UU PPh Pasal 6 dan 7"
+  },
+  {
+    "question": "Apa itu penghasilan neto?",
+    "answer": "Penghasilan neto adalah penghasilan bruto dikurangi dengan biaya-biaya yang diperkenankan menurut ketentuan perpajakan.",
+    "category": "Konsep PPh Orang Pribadi",
+    "source": "UU PPh Pasal 6"
+  },
+  {
+    "question": "Apa saja bentuk penghasilan yang dikecualikan dari objek PPh?",
+    "answer": "Di antaranya adalah warisan, hibah kepada keluarga sedarah, zakat, bantuan dan sumbangan yang memenuhi ketentuan tertentu.",
+    "category": "Konsep PPh Orang Pribadi",
+    "source": "UU PPh Pasal 4 ayat (3)"
+  },
+  {
+    "question": "Apakah penghasilan dari luar negeri dikenakan PPh?",
+    "answer": "Ya, jika diterima oleh subjek pajak dalam negeri, maka penghasilan dari luar negeri termasuk objek PPh.",
+    "category": "Konsep PPh Orang Pribadi",
+    "source": "UU PPh Pasal 4 ayat (1)"
+  },
+  {
+    "question": "Apa peran NPWP dalam pelaporan PPh Orang Pribadi?",
+    "answer": "NPWP digunakan untuk administrasi perpajakan dan menjadi identitas wajib pajak dalam memenuhi kewajiban perpajakan termasuk PPh OP.",
+    "category": "Konsep PPh Orang Pribadi",
+    "source": "UU KUP Pasal 1 angka 6a"
+  },
+  {
+    "question": "Siapa saja yang termasuk subjek pajak orang pribadi dalam negeri?",
+    "answer": "Orang pribadi yang bertempat tinggal di Indonesia, berada di Indonesia lebih dari 183 hari dalam 12 bulan, atau berniat tinggal di Indonesia.",
+    "category": "Subjek PPh Orang Pribadi",
+    "source": "UU PPh Pasal 2 ayat (3)"
+  },
+  {
+    "question": "Siapa yang termasuk subjek pajak luar negeri?",
+    "answer": "Orang pribadi yang tidak bertempat tinggal di Indonesia dan tidak berada di Indonesia lebih dari 183 hari, namun memperoleh penghasilan dari Indonesia.",
+    "category": "Subjek PPh Orang Pribadi",
+    "source": "UU PPh Pasal 2 ayat (4)"
+  },
+  {
+    "question": "Apakah WNA yang tinggal di Indonesia termasuk subjek pajak?",
+    "answer": "Ya, jika memenuhi syarat tinggal lebih dari 183 hari atau berniat tinggal, maka WNA termasuk subjek pajak dalam negeri.",
+    "category": "Subjek PPh Orang Pribadi",
+    "source": "UU PPh Pasal 2 ayat (3)"
+  },
+  {
+    "question": "Bagaimana status pajak bagi TKI yang bekerja di luar negeri?",
+    "answer": "Jika TKI tinggal di luar negeri lebih dari 183 hari dalam 12 bulan, maka dianggap sebagai subjek pajak luar negeri.",
+    "category": "Subjek PPh Orang Pribadi",
+    "source": "UU PPh Pasal 2 ayat (4)"
+  },
+  {
+    "question": "Apa kewajiban pajak bagi subjek pajak luar negeri?",
+    "answer": "Subjek pajak luar negeri hanya dikenai pajak atas penghasilan yang berasal dari Indonesia.",
+    "category": "Subjek PPh Orang Pribadi",
+    "source": "UU PPh Pasal 2 ayat (4)"
+  },
+  {
+    "question": "Apakah setiap orang yang memiliki NPWP adalah wajib pajak?",
+    "answer": "Ya, orang pribadi yang memiliki NPWP umumnya sudah memenuhi syarat sebagai wajib pajak.",
+    "category": "Subjek PPh Orang Pribadi",
+    "source": "PMK 147/PMK.03/2017 Pasal 3"
+  },
+  {
+    "question": "Apakah anak di bawah umur bisa menjadi subjek pajak?",
+    "answer": "Anak di bawah umur pada prinsipnya merupakan tanggungan orang tua, namun tetap bisa memiliki NPWP untuk keperluan tertentu.",
+    "category": "Subjek PPh Orang Pribadi",
+    "source": "UU PPh Pasal 8"
+  },
+  {
+    "question": "Apa itu niat tinggal dalam konteks subjek pajak?",
+    "answer": "Niat tinggal dibuktikan dengan kehadiran secara fisik, perjanjian kerja, atau bukti administratif lain yang menunjukkan domisili.",
+    "category": "Subjek PPh Orang Pribadi",
+    "source": "Penjelasan UU PPh Pasal 2 ayat (3)"
+  },
+  {
+    "question": "Apakah pelajar dari luar negeri di Indonesia dikenakan pajak?",
+    "answer": "Pelajar yang tidak bekerja dan tidak memiliki penghasilan di Indonesia umumnya tidak dikenai pajak.",
+    "category": "Subjek PPh Orang Pribadi",
+    "source": "UU PPh Pasal 2 ayat (4)"
+  },
+  {
+    "question": "Bagaimana menentukan status subjek pajak dalam negeri jika baru pindah dari luar negeri?",
+    "answer": "Jika telah berada di Indonesia lebih dari 183 hari dalam 12 bulan atau berniat menetap, maka statusnya menjadi subjek pajak dalam negeri.",
+    "category": "Subjek PPh Orang Pribadi",
+    "source": "UU PPh Pasal 2 ayat (3)"
+  },
+  {
+    "question": "Apakah tiket pulang-pergi untuk pegawai tambang merupakan objek PPh?",
+    "answer": "Ya, tiket PP termasuk natura yang merupakan objek PPh Pasal 21, kecuali lokasi kerja di daerah tertentu yang ditetapkan melalui SK.",
+    "category": "Natura dan atau kenikmatan",
+    "source": "PMK 66/2023"
+  },
+  {
+    "question": "Apakah fasilitas kendaraan mewah untuk direksi merupakan objek PPh?",
+    "answer": "Ya, fasilitas kendaraan termasuk objek PPh Pasal 21 dan dapat dibiayakan sepenuhnya jika digunakan sebagai fasilitas kerja.",
+    "category": "Natura dan atau kenikmatan",
+    "source": "PMK 66/2023"
+  },
+  {
+    "question": "Apakah komputer/laptop yang digunakan untuk kerja termasuk objek pajak?",
+    "answer": "Jika berupa fasilitas kerja dan tidak dialihkan kepemilikannya, tidak termasuk objek PPh.",
+    "category": "Natura dan atau kenikmatan",
+    "source": "PMK 66/2023"
+  },
+  {
+    "question": "Bagaimana perlakuan pajak atas rumah dinas yang diberikan kepada pegawai?",
+    "answer": "Biaya penyusutan dan pemeliharaan rumah termasuk komponen nilai kenikmatan dan menjadi objek PPh.",
+    "category": "Natura dan atau kenikmatan",
+    "source": "PMK 66/2023"
+  },
+  {
+    "question": "Apakah biaya perjalanan dinas termasuk natura yang dikenai PPh?",
+    "answer": "Tidak, jika biaya dinas dibayarkan langsung atau reimburse dan digunakan murni untuk tugas, maka bukan objek PPh.",
+    "category": "Natura dan atau kenikmatan",
+    "source": "PMK 66/2023"
+  },
+  {
+    "question": "Apa saja natura yang dikecualikan dari objek PPh?",
+    "answer": "Fasilitas kerja seperti seragam, makan/minum untuk seluruh pegawai, dan natura di daerah tertentu dikecualikan dari objek PPh.",
+    "category": "Natura dan atau kenikmatan",
+    "source": "PMK 66/2023"
+  },
+  {
+    "question": "Apakah vocer hotel yang tidak digunakan tetap menjadi objek pajak?",
+    "answer": "Ya, vocer menjadi objek PPh saat diberikan, terlepas digunakan atau tidak.",
+    "category": "Natura dan atau kenikmatan",
+    "source": "PMK 66/2023"
+  },
+  {
+    "question": "Apakah fasilitas pengobatan untuk melahirkan dikenakan PPh?",
+    "answer": "Ya, kecuali diberikan di daerah tertentu dengan SK penetapan. Selain itu, termasuk objek PPh.",
+    "category": "Natura dan atau kenikmatan",
+    "source": "PMK 66/2023"
+  },
+  {
+    "question": "Apakah family gathering termasuk objek PPh?",
+    "answer": "Ya, jika memberikan manfaat lebih besar ke pegawai dan ada intensi pribadi, maka menjadi objek PPh sebagai kenikmatan.",
+    "category": "Natura dan atau kenikmatan",
+    "source": "PMK 66/2023"
+  },
+  {
+    "question": "Bagaimana jika mobil dinas dialihkan menjadi milik pegawai?",
+    "answer": "Pengalihan mobil dinas ke pegawai termasuk natura dan dinilai berdasarkan nilai pasar saat pengalihan, menjadi objek PPh.",
+    "category": "Natura dan atau kenikmatan",
+    "source": "PMK 66/2023"
+  },
+  {
+    "question": "Apakah penghasilan berupa hadiah perlombaan dikenai PPh?",
+    "answer": "Ya, hadiah perlombaan merupakan objek PPh dan dikenakan pajak sesuai ketentuan PPh Pasal 21 atau PPh Final tergantung jenis perlombaan.",
+    "category": "Objek PPh Orang Pribadi",
+    "source": "UU PPh Pasal 4 ayat (1)"
+  },
+  {
+    "question": "Apakah tunjangan hari raya (THR) termasuk objek pajak?",
+    "answer": "Ya, THR termasuk objek PPh Pasal 21 karena merupakan penghasilan yang diterima sehubungan dengan pekerjaan.",
+    "category": "Objek PPh Orang Pribadi",
+    "source": "PP 58/2023"
+  },
+  {
+    "question": "Bagaimana perlakuan pajak atas uang makan yang diberikan dalam bentuk uang?",
+    "answer": "Uang makan dalam bentuk tunai merupakan penghasilan dan termasuk objek PPh Pasal 21.",
+    "category": "Objek PPh Orang Pribadi",
+    "source": "UU PPh Pasal 4 ayat (1)"
+  },
+  {
+    "question": "Apakah kupon makanan termasuk objek pajak?",
+    "answer": "Jika kupon hanya diberikan kepada sebagian pegawai, maka merupakan objek PPh. Jika untuk seluruh pegawai, dapat dikecualikan.",
+    "category": "Objek PPh Orang Pribadi",
+    "source": "PMK 66/2023"
+  },
+  {
+    "question": "Apakah bonus akhir tahun dikenai pajak?",
+    "answer": "Ya, bonus merupakan penghasilan tidak teratur yang dikenai PPh Pasal 21 dan wajib dilaporkan dalam SPT Tahunan.",
+    "category": "Objek PPh Orang Pribadi",
+    "source": "UU PPh Pasal 4 ayat (1)"
+  },
+  {
+    "question": "Apakah penghasilan dari pekerjaan bebas seperti freelancer dikenai PPh?",
+    "answer": "Ya, penghasilan dari pekerjaan bebas merupakan objek pajak dan dapat dikenai PPh Pasal 21 atau harus dihitung sendiri oleh WP.",
+    "category": "Objek PPh Orang Pribadi",
+    "source": "UU PPh Pasal 4 dan 25"
+  },
+  {
+    "question": "Bagaimana perlakuan pajak atas penghasilan dari TikTok, YouTube, atau media sosial lainnya?",
+    "answer": "Penghasilan dari platform digital merupakan objek pajak dan wajib dilaporkan sebagai penghasilan usaha atau pekerjaan bebas.",
+    "category": "Objek PPh Orang Pribadi",
+    "source": "UU PPh Pasal 4 ayat (1)"
+  },
+  {
+    "question": "Apakah pesangon yang diterima pegawai termasuk objek PPh?",
+    "answer": "Ya, pesangon merupakan penghasilan yang dikenai PPh Final dengan tarif tertentu.",
+    "category": "Objek PPh Orang Pribadi",
+    "source": "PP 68 Tahun 2009"
+  },
+  {
+    "question": "Apakah penghasilan dari jual beli saham pribadi dikenai PPh?",
+    "answer": "Ya, jika dilakukan secara rutin dan menghasilkan keuntungan, maka dikenai PPh Final atas capital gain.",
+    "category": "Objek PPh Orang Pribadi",
+    "source": "UU PPh dan PP 55 Tahun 2022"
+  },
+  {
+    "question": "Apakah sewa rumah yang diterima individu termasuk objek PPh?",
+    "answer": "Ya, sewa rumah termasuk objek pajak dan dikenakan PPh Final sebesar 10% dari jumlah bruto sewa.",
+    "category": "Objek PPh Orang Pribadi",
+    "source": "PP 34 Tahun 2017"
+  },
+  {
+    "question": "Apakah hibah dari orang tua kepada anak dikenai pajak penghasilan?",
+    "answer": "Tidak. Hibah dari keluarga sedarah dalam garis keturunan lurus bukan objek PPh, jika tidak ada hubungan dengan usaha, pekerjaan, atau kepemilikan.",
+    "category": "Objek PPh Orang Pribadi",
+    "source": "UU PPh Pasal 4 ayat (3) huruf a"
+  },
+  {
+    "question": "Apakah zakat yang dibayarkan melalui lembaga resmi dikenai pajak?",
+    "answer": "Tidak. Zakat yang dibayarkan melalui badan/lembaga amil zakat yang resmi dikecualikan dari objek PPh.",
+    "category": "Objek PPh Orang Pribadi",
+    "source": "UU PPh Pasal 4 ayat (3) huruf a"
+  },
+  {
+    "question": "Apakah beasiswa yang diterima mahasiswa merupakan objek pajak?",
+    "answer": "Tidak. Beasiswa bukan objek PPh sepanjang memenuhi ketentuan dan berasal dari lembaga yang sah.",
+    "category": "Objek PPh Orang Pribadi",
+    "source": "UU PPh Pasal 4 ayat (3) huruf l"
+  },
+  {
+    "question": "Apakah makanan/minuman untuk seluruh karyawan termasuk objek pajak?",
+    "answer": "Tidak. Jika diberikan kepada seluruh karyawan, makanan/minuman tersebut bukan objek PPh.",
+    "category": "Objek PPh Orang Pribadi",
+    "source": "PMK 66/2023"
+  },
+  {
+    "question": "Apakah seragam kerja teknis termasuk objek PPh?",
+    "answer": "Tidak. Seragam teknis seperti baju laboratorium atau pelindung keselamatan dikecualikan dari objek PPh.",
+    "category": "Objek PPh Orang Pribadi",
+    "source": "PMK 66/2023 Pasal 6"
+  },
+  {
+    "question": "Apakah pengobatan karena kecelakaan kerja dikenai pajak?",
+    "answer": "Tidak. Penggantian biaya pengobatan akibat kecelakaan kerja dikecualikan dari objek PPh.",
+    "category": "Objek PPh Orang Pribadi",
+    "source": "PMK 66/2023"
+  },
+  {
+    "question": "Apakah uang duka cita merupakan objek pajak penghasilan?",
+    "answer": "Tidak. Uang duka yang diberikan kepada keluarga almarhum tidak termasuk objek PPh.",
+    "category": "Objek PPh Orang Pribadi",
+    "source": "PMK 90 Tahun 2020"
+  },
+  {
+    "question": "Apakah natura di daerah tertentu termasuk objek PPh?",
+    "answer": "Tidak. Natura yang diberikan kepada pegawai yang bekerja di daerah tertentu dan telah ditetapkan, dikecualikan dari objek PPh.",
+    "category": "Objek PPh Orang Pribadi",
+    "source": "PMK 66/2023"
+  },
+  {
+    "question": "Apakah bantuan sosial dari pemerintah dikenai pajak?",
+    "answer": "Tidak. Bantuan sosial dari pemerintah seperti BLT dan bantuan bencana bukan objek PPh.",
+    "category": "Objek PPh Orang Pribadi",
+    "source": "UU PPh Pasal 4 ayat (3)"
+  },
+  {
+    "question": "Apakah warisan termasuk penghasilan kena pajak?",
+    "answer": "Tidak. Warisan yang diterima oleh ahli waris bukan merupakan objek pajak penghasilan.",
+    "category": "Objek PPh Orang Pribadi",
+    "source": "UU PPh Pasal 4 ayat (3)"
+  },
+  {
+    "question": "Siapa saja Wajib Pajak Orang Pribadi yang wajib melakukan pembukuan?",
+    "answer": "Wajib Pajak Orang Pribadi yang menjalankan usaha atau pekerjaan bebas dan tidak menggunakan norma penghitungan penghasilan neto wajib melakukan pembukuan.",
+    "category": "Kewajiban Pembukuan atau Pencatatan",
+    "source": "UU KUP Pasal 28 ayat (1)"
+  },
+  {
+    "question": "Apa itu pembukuan dalam konteks perpajakan?",
+    "answer": "Pembukuan adalah proses pencatatan yang dilakukan secara teratur untuk mengumpulkan data dan informasi keuangan, termasuk harta, kewajiban, modal, penghasilan, dan biaya.",
+    "category": "Kewajiban Pembukuan atau Pencatatan",
+    "source": "UU KUP Pasal 1 angka 29"
+  },
+  {
+    "question": "Apa itu pencatatan dalam konteks pajak?",
+    "answer": "Pencatatan adalah pengumpulan data secara teratur mengenai peredaran bruto dan/atau penghasilan bruto, digunakan bagi Wajib Pajak Orang Pribadi tertentu.",
+    "category": "Kewajiban Pembukuan atau Pencatatan",
+    "source": "UU KUP Pasal 1 angka 30"
+  },
+  {
+    "question": "Kapan Wajib Pajak boleh hanya melakukan pencatatan dan tidak pembukuan?",
+    "answer": "Jika peredaran bruto setahun tidak melebihi Rp4,8 miliar dan menggunakan norma penghitungan, WP boleh cukup melakukan pencatatan.",
+    "category": "Kewajiban Pembukuan atau Pencatatan",
+    "source": "PP 55 Tahun 2022"
+  },
+  {
+    "question": "Apakah semua WP Orang Pribadi harus membuat laporan keuangan lengkap?",
+    "answer": "Tidak. Hanya WP yang wajib melakukan pembukuan yang harus menyusun laporan keuangan seperti neraca dan laba rugi.",
+    "category": "Kewajiban Pembukuan atau Pencatatan",
+    "source": "UU KUP Pasal 28"
+  },
+  {
+    "question": "Apa akibatnya jika WP tidak melakukan pembukuan atau pencatatan?",
+    "answer": "Penghasilan neto akan dihitung secara jabatan oleh DJP dan WP dapat dikenai sanksi administrasi.",
+    "category": "Kewajiban Pembukuan atau Pencatatan",
+    "source": "UU KUP Pasal 14"
+  },
+  {
+    "question": "Apakah WP yang menggunakan tarif final 0,5% (UMKM) tetap wajib mencatat?",
+    "answer": "Ya, WP UMKM yang menggunakan tarif final tetap wajib melakukan pencatatan penghasilan dan biaya usaha.",
+    "category": "Kewajiban Pembukuan atau Pencatatan",
+    "source": "PP 23 Tahun 2018"
+  },
+  {
+    "question": "Berapa lama dokumen pembukuan atau pencatatan harus disimpan?",
+    "answer": "Selama 5 tahun sejak akhir tahun pajak yang bersangkutan.",
+    "category": "Kewajiban Pembukuan atau Pencatatan",
+    "source": "UU KUP Pasal 28 ayat (11)"
+  },
+  {
+    "question": "Apa format pencatatan yang diperbolehkan bagi WP Orang Pribadi?",
+    "answer": "Dapat menggunakan catatan manual, spreadsheet, atau aplikasi sederhana yang mencatat penghasilan dan biaya usaha secara teratur.",
+    "category": "Kewajiban Pembukuan atau Pencatatan",
+    "source": "PP 55 Tahun 2022"
+  },
+  {
+    "question": "Apakah WP boleh menggunakan pembukuan berbasis kas?",
+    "answer": "Ya, WP Orang Pribadi boleh menggunakan metode pembukuan berbasis kas sesuai dengan ketentuan perpajakan.",
+    "category": "Kewajiban Pembukuan atau Pencatatan",
+    "source": "UU KUP Pasal 28 ayat (4)"
+  },
+  {
+    "question": "Apa yang dimaksud dengan penghasilan neto?",
+    "answer": "Penghasilan neto adalah penghasilan bruto dikurangi biaya-biaya yang diperbolehkan menurut ketentuan perpajakan.",
+    "category": "Penghasilan Neto",
+    "source": "UU PPh Pasal 6"
+  },
+  {
+    "question": "Apa saja yang termasuk pengurang dalam menghitung penghasilan neto?",
+    "answer": "Termasuk biaya operasional, biaya sewa, gaji pegawai, biaya listrik, dan penyusutan harta.",
+    "category": "Penghasilan Neto",
+    "source": "UU PPh Pasal 6"
+  },
+  {
+    "question": "Apakah biaya keluarga seperti pendidikan anak dapat menjadi pengurang penghasilan bruto?",
+    "answer": "Tidak. Hanya biaya yang berhubungan langsung dengan kegiatan usaha yang dapat menjadi pengurang.",
+    "category": "Penghasilan Neto",
+    "source": "UU PPh Pasal 6"
+  },
+  {
+    "question": "Apa yang dimaksud dengan norma penghitungan penghasilan neto?",
+    "answer": "Norma adalah persentase tertentu yang digunakan untuk menghitung penghasilan neto dari penghasilan bruto WP Orang Pribadi yang memenuhi syarat.",
+    "category": "Penghasilan Neto",
+    "source": "PP 55 Tahun 2022"
+  },
+  {
+    "question": "Kapan Wajib Pajak boleh menggunakan norma penghitungan penghasilan neto?",
+    "answer": "Jika peredaran bruto dalam satu tahun kurang dari Rp4,8 miliar dan menyampaikan pemberitahuan ke DJP.",
+    "category": "Penghasilan Neto",
+    "source": "PP 55 Tahun 2022"
+  },
+  {
+    "question": "Apakah penghasilan neto harus dihitung setiap bulan?",
+    "answer": "Penghasilan neto wajib dihitung paling sedikit setiap akhir tahun untuk keperluan pengisian SPT Tahunan.",
+    "category": "Penghasilan Neto",
+    "source": "UU PPh Pasal 6"
+  },
+  {
+    "question": "Apakah biaya penyusutan dapat mengurangi penghasilan bruto?",
+    "answer": "Ya. Penyusutan atas harta tetap yang digunakan untuk usaha dapat menjadi pengurang dalam menghitung penghasilan neto.",
+    "category": "Penghasilan Neto",
+    "source": "UU PPh Pasal 11"
+  },
+  {
+    "question": "Apakah penghasilan dari pekerjaan bebas harus dihitung penghasilan netonya?",
+    "answer": "Ya, penghasilan dari pekerjaan bebas wajib dihitung netonya, baik dengan norma maupun pembukuan.",
+    "category": "Penghasilan Neto",
+    "source": "PP 55 Tahun 2022"
+  },
+  {
+    "question": "Apa akibatnya jika WP tidak menghitung penghasilan neto secara benar?",
+    "answer": "DJP dapat melakukan koreksi dan menerbitkan SKPKB, serta mengenakan sanksi administrasi.",
+    "category": "Penghasilan Neto",
+    "source": "UU KUP Pasal 13"
+  },
+  {
+    "question": "Apa contoh penerapan norma penghitungan penghasilan neto?",
+    "answer": "Misalnya pedagang eceran dengan omzet Rp300 juta setahun, menggunakan norma 30%, maka penghasilan neto = Rp90 juta.",
+    "category": "Penghasilan Neto",
+    "source": "PER - 17/PJ/2015"
+  },
+  {
+    "question": "Apa yang dimaksud dengan Penghasilan Tidak Kena Pajak (PTKP)?",
+    "answer": "PTKP adalah batasan penghasilan yang tidak dikenai pajak dalam satu tahun pajak.",
+    "category": "Penghasilan Tidak Kena Pajak",
+    "source": "UU PPh Pasal 7"
+  },
+  {
+    "question": "Berapa besarnya PTKP untuk Wajib Pajak lajang tanpa tanggungan?",
+    "answer": "Sebesar Rp54.000.000 per tahun.",
+    "category": "Penghasilan Tidak Kena Pajak",
+    "source": "PMK 168/2023"
+  },
+  {
+    "question": "Apakah besarnya PTKP berubah jika Wajib Pajak menikah?",
+    "answer": "Ya. WP yang menikah mendapat tambahan PTKP sebesar Rp4.500.000.",
+    "category": "Penghasilan Tidak Kena Pajak",
+    "source": "PMK 168/2023"
+  },
+  {
+    "question": "Berapa tambahan PTKP untuk setiap tanggungan?",
+    "answer": "Tambahan PTKP sebesar Rp4.500.000 per tanggungan, maksimal 3 orang.",
+    "category": "Penghasilan Tidak Kena Pajak",
+    "source": "PMK 168/2023"
+  },
+  {
+    "question": "Apakah anak yang sudah bekerja tetap dihitung sebagai tanggungan?",
+    "answer": "Tidak. Anak yang sudah memiliki penghasilan sendiri tidak dapat dihitung sebagai tanggungan.",
+    "category": "Penghasilan Tidak Kena Pajak",
+    "source": "PMK 168/2023"
+  },
+  {
+    "question": "Bagaimana cara menghitung total PTKP untuk WP menikah dengan dua anak?",
+    "answer": "Rp54.000.000 (WP) + Rp4.500.000 (menikah) + Rp9.000.000 (2 tanggungan) = Rp67.500.000.",
+    "category": "Penghasilan Tidak Kena Pajak",
+    "source": "PMK 168/2023"
+  },
+  {
+    "question": "Apakah orang tua yang tinggal bersama dapat dijadikan tanggungan?",
+    "answer": "Ya, jika tidak memiliki penghasilan dan secara hukum menjadi tanggungan WP.",
+    "category": "Penghasilan Tidak Kena Pajak",
+    "source": "PMK 168/2023"
+  },
+  {
+    "question": "Kapan PTKP diterapkan dalam perhitungan PPh?",
+    "answer": "PTKP dikurangkan setelah penghasilan neto dihitung, sebelum pengenaan tarif PPh.",
+    "category": "Penghasilan Tidak Kena Pajak",
+    "source": "UU PPh Pasal 7"
+  },
+  {
+    "question": "Apakah WP suami istri yang digabung tetap mendapat PTKP masing-masing?",
+    "answer": "Tidak. PTKP hanya diberikan satu kali atas penghasilan suami sebagai kepala keluarga.",
+    "category": "Penghasilan Tidak Kena Pajak",
+    "source": "UU PPh Pasal 8"
+  },
+  {
+    "question": "Bagaimana jika WP tidak mencantumkan tanggungan dalam SPT?",
+    "answer": "PTKP yang digunakan hanya berdasarkan status yang dilaporkan, sehingga potensi kurang bayar bisa terjadi.",
+    "category": "Penghasilan Tidak Kena Pajak",
+    "source": "PMK No.101/PMK.010/2016 "
+  },
+  {
+    "question": "Bagaimana urutan penghitungan PPh Orang Pribadi?",
+    "answer": "Urutannya: hitung penghasilan bruto → kurangi biaya → dapat penghasilan neto → kurangi PTKP → hitung PPh terutang dengan tarif progresif.",
+    "category": "Mekanisme Penghitungan PPh Orang Pribadi",
+    "source": "UU PPh Pasal 6 dan 7"
+  },
+  {
+    "question": "Apa itu tarif progresif dalam penghitungan PPh OP?",
+    "answer": "Tarif progresif adalah tarif yang meningkat seiring dengan naiknya penghasilan kena pajak. Dimulai dari 5% hingga 35%.",
+    "category": "Mekanisme Penghitungan PPh Orang Pribadi",
+    "source": "UU PPh Pasal 17"
+  },
+  {
+    "question": "Berapa lapisan tarif pajak penghasilan untuk orang pribadi?",
+    "answer": "Lapisan: 5% (hingga 60 juta), 15% (60–250 juta), 25% (250–500 juta), 30% (500 juta–5 miliar), 35% (di atas 5 miliar).",
+    "category": "Mekanisme Penghitungan PPh Orang Pribadi",
+    "source": "UU PPh Pasal 17 ayat (1)"
+  },
+  {
+    "question": "Bagaimana menghitung pajak jika penghasilan tidak tetap setiap bulan?",
+    "answer": "Gunakan metode tahunan: jumlahkan seluruh penghasilan setahun, lalu hitung PPh berdasarkan tarif tahunan.",
+    "category": "Mekanisme Penghitungan PPh Orang Pribadi",
+    "source": "KEP-537/PJ/2000"
+  },
+  {
+    "question": "Apa yang dimaksud dengan penghasilan kena pajak?",
+    "answer": "Penghasilan kena pajak adalah penghasilan neto yang telah dikurangi dengan PTKP.",
+    "category": "Mekanisme Penghitungan PPh Orang Pribadi",
+    "source": "UU PPh Pasal 6 dan 7"
+  },
+  {
+    "question": "Bagaimana cara menghitung PPh OP jika memiliki dua sumber penghasilan?",
+    "answer": "Jumlahkan semua penghasilan dari kedua sumber, lalu hitung berdasarkan tarif progresif tahunan.",
+    "category": "Mekanisme Penghitungan PPh Orang Pribadi",
+    "source": "UU PPh Pasal 4 ayat (1)"
+  },
+  {
+    "question": "Apakah pajak yang sudah dipotong PPh 21 dari pemberi kerja bisa dikreditkan?",
+    "answer": "Ya. PPh 21 yang dipotong oleh pemberi kerja dapat dikreditkan saat pelaporan SPT Tahunan.",
+    "category": "Mekanisme Penghitungan PPh Orang Pribadi",
+    "source": "UU PPh Pasal 28A"
+  },
+  {
+    "question": "Apa yang dimaksud dengan penghasilan neto sehubungan pekerjaan?",
+    "answer": "Penghasilan neto sehubungan pekerjaan adalah gaji atau upah dikurangi biaya jabatan dan iuran pensiun.",
+    "category": "Mekanisme Penghitungan PPh Orang Pribadi",
+    "source": "UU PPh Pasal 6 dan PP 55 Tahun 2022"
+  },
+  {
+    "question": "Apakah ada metode penghitungan lain selain tarif progresif?",
+    "answer": "Ya, untuk penghasilan tertentu seperti PPh Final UMKM atau penghasilan dari undian, digunakan tarif final.",
+    "category": "Mekanisme Penghitungan PPh Orang Pribadi",
+    "source": "PP 23 Tahun 2018 dan PP 55 Tahun 2022"
+  },
+  {
+    "question": "Apa itu kredit pajak dalam penghitungan PPh?",
+    "answer": "Kredit pajak adalah jumlah pajak yang telah dibayar atau dipotong yang dapat dikurangkan dari PPh terutang.",
+    "category": "Mekanisme Penghitungan PPh Orang Pribadi",
+    "source": "UU PPh Pasal 28A"
+  },
+  {
+    "question": "Apa yang dimaksud dengan angsuran PPh Pasal 25?",
+    "answer": "Angsuran PPh Pasal 25 adalah pembayaran pajak penghasilan secara bulanan oleh Wajib Pajak Orang Pribadi atas penghasilan dari usaha atau pekerjaan bebas untuk mengurangi beban pajak saat pelaporan SPT Tahunan.",
+    "category": "Angsuran PPh Pasal 25",
+    "source": "UU PPh Pasal 25"
+  },
+  {
+    "question": "Siapa saja yang wajib membayar angsuran PPh Pasal 25?",
+    "answer": "WP Orang Pribadi pengusaha, pekerja bebas, mereka yang bekerja di lebih dari satu pemberi kerja, serta suami istri dengan NPWP terpisah yang menghitung dan membayar PPh sendiri.",
+    "category": "Angsuran PPh Pasal 25",
+    "source": "UU PPh Pasal 25"
+  },
+  {
+    "question": "Bagaimana cara menghitung besarnya angsuran PPh Pasal 25?",
+    "answer": "Dihitung dari PPh terutang tahun sebelumnya dikurangi kredit pajak, lalu dibagi 12 bulan.",
+    "category": "Angsuran PPh Pasal 25",
+    "source": "UU PPh Pasal 25"
+  },
+  {
+    "question": "Kapan batas waktu pembayaran angsuran PPh Pasal 25?",
+    "answer": "Paling lambat tanggal 15 bulan berikutnya setelah masa pajak berakhir.",
+    "category": "Angsuran PPh Pasal 25",
+    "source": "UU KUP Pasal 9"
+  },
+  {
+    "question": "Bagaimana jika WP tidak membayar angsuran PPh Pasal 25 tepat waktu?",
+    "answer": "WP dapat dikenai sanksi administrasi berupa bunga sesuai tarif per bulan atas jumlah pajak yang tidak atau kurang dibayar.",
+    "category": "Angsuran PPh Pasal 25",
+    "source": "UU KUP Pasal 9 ayat (2a)"
+  },
+  {
+    "question": "Apakah WP yang hanya memiliki penghasilan dari satu pemberi kerja wajib membayar PPh Pasal 25?",
+    "answer": "Tidak wajib, karena PPh-nya telah dipotong oleh pemberi kerja melalui mekanisme PPh Pasal 21.",
+    "category": "Angsuran PPh Pasal 25",
+    "source": "UU PPh"
+  },
+  {
+    "question": "Bagaimana cara menyetor angsuran PPh Pasal 25?",
+    "answer": "Melalui e-Billing di situs DJP Online atau saluran resmi lainnya menggunakan kode akun pajak 411125 dan kode jenis setoran 100.",
+    "category": "Angsuran PPh Pasal 25",
+    "source": "UU PPh Pasal 25"
+  },
+  {
+    "question": "Apakah angsuran PPh Pasal 25 berlaku untuk WP UMKM yang menggunakan tarif 0,5%?",
+    "answer": "Tidak, karena WP UMKM yang menggunakan tarif final 0,5% tidak menggunakan skema angsuran PPh Pasal 25.",
+    "category": "Angsuran PPh Pasal 25",
+    "source": "PP 23 Tahun 2018"
+  },
+  {
+    "question": "Bagaimana cara mengajukan permohonan penyesuaian angsuran PPh Pasal 25?",
+    "answer": "WP dapat mengajukan permohonan ke KPP dengan melampirkan proyeksi penghasilan dan laporan keuangan sementara.",
+    "category": "Angsuran PPh Pasal 25",
+    "source": "KEP-537/PJ/2000"
+  },
+  {
+    "question": "Apa tujuan utama angsuran PPh Pasal 25?",
+    "answer": "Agar pajak yang dibayar selama tahun berjalan tidak terlalu besar atau kurang saat pelaporan SPT Tahunan.",
+    "category": "Angsuran PPh Pasal 25",
+    "source": "UU PPh Pasal 25"
+  },
+  {
+    "question": "Kapan penghasilan istri tidak digabung dengan penghasilan suami?",
+    "answer": "Jika penghasilan istri berasal dari satu pemberi kerja, telah dipotong PPh 21, dan tidak terkait usaha suami atau keluarga lainnya. Dalam kondisi ini, pajak istri bersifat final dan dilaporkan terpisah.",
+    "category": "Penggabungan Penghasilan Suami Istri",
+    "source": "UU PPh Pasal 8"
+  },
+  {
+    "question": "Apa itu status MT dalam perpajakan suami istri?",
+    "answer": "Status MT berarti istri menjalankan kewajiban perpajakan sendiri meskipun tidak pisah harta. Istri wajib memiliki NPWP sendiri dan menyampaikan SPT terpisah.",
+    "category": "Penggabungan Penghasilan Suami Istri",
+    "source": "PER-36/PJ/2015"
+  },
+  {
+    "question": "Apa keuntungan menggabungkan NPWP suami istri?",
+    "answer": "Administrasi perpajakan lebih sederhana dan pemanfaatan PTKP maksimal, misalnya K/I/3 mendapat PTKP Rp126.000.000.",
+    "category": "Penggabungan Penghasilan Suami Istri",
+    "source": "https://www.pajak.go.id/index.php/id/artikel/npwp-suami-isteri-lebih-baik-digabungkan-atau-dipisah"
+  },
+  {
+    "question": "Bagaimana cara menggabungkan NPWP istri ke suami?",
+    "answer": "Istri menghapus NPWP-nya, lalu bergabung ke NPWP suami. Per 1 Januari 2024, NIK suami digunakan sebagai NPWP keluarga.",
+    "category": "Penggabungan Penghasilan Suami Istri",
+    "source": "https://www.pajak.go.id/index.php/id/artikel/npwp-suami-isteri-lebih-baik-digabungkan-atau-dipisah"
+  },
+  {
+    "question": "Bagaimana perhitungan pajak jika suami istri memiliki NPWP terpisah?",
+    "answer": "Penghasilan suami istri digabung, dihitung pajaknya, lalu dibagi proporsional berdasarkan penghasilan masing-masing.",
+    "category": "Penggabungan Penghasilan Suami Istri",
+    "source": "PER-36/PJ/2015"
+  },
+  {
+    "question": "Apakah potongan PPh 21 istri dapat dikreditkan jika penghasilan digabung?",
+    "answer": "Ya. Potongan PPh 21 oleh pemberi kerja istri dapat dikreditkan terhadap pajak gabungan yang terutang.",
+    "category": "Penggabungan Penghasilan Suami Istri",
+    "source": "UU PPh Pasal 28A"
+  },
+  {
+    "question": "Dalam kondisi apa suami istri wajib menghitung pajak secara terpisah?",
+    "answer": "Jika hidup berpisah berdasarkan keputusan hakim, pisah harta secara tertulis, atau istri memilih menjalankan kewajiban sendiri (MT).",
+    "category": "Penggabungan Penghasilan Suami Istri",
+    "source": "UU PPh Pasal 8 ayat (2)"
+  },
+  {
+    "question": "Bagaimana pengaruh status PTKP jika suami istri memilih lapor terpisah?",
+    "answer": "PTKP suami K/0 dan istri TK/0. Jika digabung, bisa jadi K/I/0 hingga K/I/3 sesuai tanggungan.",
+    "category": "Penggabungan Penghasilan Suami Istri",
+    "source": "UU PPh Pasal 7"
+  },
+  {
+    "question": "Apakah penghasilan istri bisa dianggap final jika tidak digabung?",
+    "answer": "Ya, jika dipotong PPh 21 dari satu pemberi kerja dan tidak terkait usaha keluarga.",
+    "category": "Penggabungan Penghasilan Suami Istri",
+    "source": "UU PPh Pasal 8"
+  },
+  {
+    "question": "Apa saja status perpajakan suami istri dalam SPT Tahunan?",
+    "answer": "KK (gabung), HB (hidup berpisah), PH (pisah harta), MT (memilih terpisah).",
+    "category": "Penggabungan Penghasilan Suami Istri",
+    "source": "PER-36/PJ/2015"
+  },
+  {
+    "question": "Apa itu SPT Tahunan Orang Pribadi?",
+    "answer": "SPT Tahunan Orang Pribadi adalah surat yang digunakan WP Orang Pribadi untuk melaporkan penghasilan, pajak yang telah dibayar, harta, kewajiban, dan informasi perpajakan lainnya dalam satu tahun pajak.",
+    "category": "Pelaporan PPh Orang Pribadi",
+    "source": "UU KUP Pasal 3"
+  },
+  {
+    "question": "Kapan batas waktu pelaporan SPT Tahunan Orang Pribadi?",
+    "answer": "Paling lambat tanggal 31 Maret tahun berikutnya setelah tahun pajak berakhir.",
+    "category": "Pelaporan PPh Orang Pribadi",
+    "source": "UU KUP Pasal 3"
+  },
+  {
+    "question": "Bagaimana cara melaporkan SPT Tahunan secara online?",
+    "answer": "SPT Tahunan dapat dilaporkan melalui DJP Online (https://djponline.pajak.go.id) menggunakan e-Filing. Mulai tahun pajak 2025, pelaporan direncanakan dilakukan melalui sistem CoreTax yang terintegrasi dengan basis data Direktorat Jenderal Pajak.",
+    "category": "Pelaporan PPh Orang Pribadi",
+    "source": "PER - 02/PJ/2019"
+  },
+  {
+    "question": "Apa saja dokumen yang diperlukan untuk pelaporan SPT Tahunan?",
+    "answer": "Antara lain: bukti potong PPh (1721-A1/A2), rincian penghasilan, daftar harta, utang, dan dokumen lainnya yang relevan.",
+    "category": "Pelaporan PPh Orang Pribadi",
+    "source": "PER - 02/PJ/2019"
+  },
+  {
+    "question": "Apa yang terjadi jika WP tidak melaporkan SPT Tahunan?",
+    "answer": "Dikenakan sanksi administratif berupa denda sebesar Rp100.000 dan potensi pemeriksaan pajak.",
+    "category": "Pelaporan PPh Orang Pribadi",
+    "source": "UU KUP Pasal 7"
+  },
+  {
+    "question": "Apakah WP dengan penghasilan di bawah PTKP tetap wajib lapor SPT?",
+    "answer": "Ya, tetap wajib melaporkan SPT sebagai bentuk kepatuhan administrasi, meskipun tidak ada pajak terutang.",
+    "category": "Pelaporan PPh Orang Pribadi",
+    "source": "UU Nomor 28 Tahun 2007 Pasal 3 (8) jo. PMK 9/PMK.03/2018 jo. PMK 243/PMK.03/2014 Pasal 18"
+  },
+  {
+    "question": "Apa bedanya e-Filing dan e-Form dalam pelaporan SPT?",
+    "answer": "e-Filing dilakukan langsung melalui pengisian online, sedangkan e-Form diisi secara offline lalu diunggah ke DJP Online.",
+    "category": "Pelaporan PPh Orang Pribadi",
+    "source": "PER - 02/PJ/2019"
+  },
+  {
+    "question": "Bagaimana cara mengetahui apakah SPT sudah diterima oleh DJP?",
+    "answer": "Setelah pelaporan berhasil, WP akan menerima Bukti Penerimaan Elektronik (BPE) sebagai tanda terima resmi.",
+    "category": "Pelaporan PPh Orang Pribadi",
+    "source": "PER - 02/PJ/2019"
+  },
+  {
+    "question": "Apakah WP yang hanya punya penghasilan dari satu pemberi kerja tetap wajib lapor?",
+    "answer": "Ya, wajib lapor SPT Tahunan, meskipun penghasilan sudah dipotong PPh oleh pemberi kerja.",
+    "category": "Pelaporan PPh Orang Pribadi",
+    "source": "PER - 02/PJ/2019"
+  },
+  {
+    "question": "Bagaimana jika terjadi kesalahan dalam pelaporan SPT?",
+    "answer": "WP dapat mengajukan pembetulan SPT sepanjang belum diperiksa, melalui fitur pembetulan di DJP Online.",
+    "category": "Pelaporan PPh Orang Pribadi",
+    "source": "UU KUP Pasal 8"
+  },
+  {
+    "question": "Apa itu PPh Final 0,5% untuk UMKM?",
+    "answer": "PPh Final 0,5% adalah tarif pajak yang dikenakan atas penghasilan dari usaha Wajib Pajak dengan omzet sampai Rp4,8 miliar per tahun. Tarif ini bersifat final.",
+    "category": "PPh UMKM",
+    "source": "PP 23 Tahun 2018"
+  },
+  {
+    "question": "Siapa saja yang dapat memanfaatkan tarif PPh Final 0,5% ini?",
+    "answer": "Wajib Pajak Orang Pribadi dan Wajib Pajak Badan berbentuk koperasi, firma, CV, atau PT dengan omzet â‰¤ Rp4,8 miliar.",
+    "category": "PPh UMKM",
+    "source": "PP 23 Tahun 2018"
+  },
+  {
+    "question": "Berapa lama jangka waktu penggunaan tarif PPh Final 0,5%?",
+    "answer": "OP: maksimal 7 tahun. Koperasi/Firma/CV: maksimal 4 tahun. PT: maksimal 3 tahun.",
+    "category": "PPh UMKM",
+    "source": "PP 23 Tahun 2018"
+  },
+  {
+    "question": "Bagaimana cara membayar PPh Final 0,5%?",
+    "answer": "Dibayar sendiri oleh WP paling lambat tanggal 15 bulan berikutnya atau dipotong oleh pihak pemotong pajak.",
+    "category": "PPh UMKM",
+    "source": "PP 23 Tahun 2018"
+  },
+  {
+    "question": "Apakah Wajib Pajak tetap wajib melakukan pembukuan?",
+    "answer": "Tidak wajib pembukuan, tetapi tetap wajib melakukan pencatatan omzet dan penghasilan usaha.",
+    "category": "PPh UMKM",
+    "source": "PP 23 Tahun 2018"
+  },
+  {
+    "question": "Apakah ada batasan omzet yang tidak dikenai PPh?",
+    "answer": "Ya. Omzet sampai Rp500 juta per tahun tidak dikenai PPh bagi WP OP sesuai PP 55 Tahun 2022.",
+    "category": "PPh UMKM",
+    "source": "PP 55 Tahun 2022"
+  },
+  {
+    "question": "Apa yang terjadi setelah jangka waktu penggunaan tarif PPh Final 0,5% berakhir?",
+    "answer": "WP wajib menggunakan tarif umum Pasal 17 UU PPh, dengan pembukuan atau NPPN jika memenuhi syarat.",
+    "category": "PPh UMKM",
+    "source": "PP 23 Tahun 2018"
+  },
+  {
+    "question": "Bagaimana cara menggunakan Norma Penghitungan Penghasilan Neto (NPPN)?",
+    "answer": "Syarat: omzet < Rp4,8 miliar, melakukan pencatatan, dan menyampaikan pemberitahuan ke DJP maksimal 3 bulan sejak awal tahun pajak.",
+    "category": "PPh UMKM",
+    "source": "PP 55 Tahun 2022"
+  },
+  {
+    "question": "Apakah Wajib Pajak dapat memilih untuk tidak menggunakan tarif PPh Final 0,5%?",
+    "answer": "Ya. WP dapat memilih langsung menggunakan tarif umum dan wajib menyampaikan pemberitahuan ke DJP.",
+    "category": "PPh UMKM",
+    "source": "PP 23 Tahun 2018"
+  },
+  {
+    "question": "Apakah suami istri dengan usaha terpisah dapat menggunakan tarif PPh Final 0,5% masing-masing?",
+    "answer": "Tidak. Omzet keduanya digabung. Jika melebihi Rp4,8 miliar, maka tidak berhak menggunakan tarif final 0,5%.",
+    "category": "PPh UMKM",
+    "source": "PP 23 Tahun 2018"
+  }
+]
