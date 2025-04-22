@@ -48,14 +48,15 @@ qa_chain = ConversationalRetrievalChain.from_llm(
 # Streamlit UI
 st.set_page_config(page_title="ConsultaxAI (GPT-4)", page_icon="💬")
 st.title("🤖 ConsultaxAI – Konsultan Pajak AI (GPT-4 + Conversational Memory)")
-st.markdown("Tanyakan apa pun tentang **PPh**, berbasis FAQ dan regulasi perpajakan.")
+st.markdown("Tanyakan apa pun tentang **PPh Orang Pribadi**, berbasis FAQ dan regulasi perpajakan.")
 
 # Input Pertanyaan
 query = st.text_input("Pertanyaan Anda:")
 
 if query:
     with st.spinner("Sedang mencari jawaban..."):
-        result = qa_chain({"question": query})
-        answer = result["answer"]
+        result = qa_chain.invoke({"question": query})
+        answer = result.get("answer", "Maaf, saya tidak menemukan jawaban yang relevan.")
+        
         st.markdown("### 💡 Jawaban:")
         st.write(answer)
