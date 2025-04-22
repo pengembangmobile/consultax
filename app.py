@@ -56,7 +56,13 @@ query = st.text_input("Pertanyaan Anda:")
 if query:
     with st.spinner("Sedang mencari jawaban..."):
         result = qa_chain.invoke({"question": query})
-        answer = result.get("answer", "Maaf, saya tidak menemukan jawaban yang relevan.")
-        
+        answer = result["answer"]
+
         st.markdown("### 💡 Jawaban:")
         st.write(answer)
+
+        # Simpan context manual ke memory
+        qa_chain.memory.save_context(
+            {"question": query},
+            {"answer": answer}
+        )
