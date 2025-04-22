@@ -48,7 +48,7 @@ qa_chain = ConversationalRetrievalChain.from_llm(
 # Streamlit UI
 st.set_page_config(page_title="ConsultaxAI (GPT-4)", page_icon="💬")
 st.title("🤖 ConsultaxAI – Konsultan Pajak AI (GPT-4 + Conversational Memory)")
-st.markdown("Tanyakan apa pun tentang **PPh Orang Pribadi**, berbasis FAQ dan regulasi perpajakan.")
+st.markdown("Tanyakan apa pun tentang **PPh**, berbasis FAQ dan regulasi perpajakan.")
 
 # Input Pertanyaan
 query = st.text_input("Pertanyaan Anda:")
