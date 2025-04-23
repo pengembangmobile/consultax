@@ -34,23 +34,22 @@ embedding = OpenAIEmbeddings()
 db = FAISS.from_documents(docs, embedding)
 retriever = db.as_retriever()
 
-# Buat memory untuk percakapan
+# Buat memory buffer lokal (tanpa disambungkan ke chain)
 memory = ConversationBufferMemory(
     memory_key="chat_history",
     return_messages=True
 )
 
-# Inisiasi QA Chain berbasis memory
+# Inisiasi QA Chain tanpa memory (manual only)
 qa_chain = ConversationalRetrievalChain.from_llm(
     llm=ChatOpenAI(model_name="gpt-4"),
     retriever=retriever,
-    memory=memory,
     return_source_documents=True
 )
 
 # Streamlit UI
 st.set_page_config(page_title="ConsultaxAI (GPT-4)", page_icon="💬")
-st.title("🤖 ConsultaxAI – Konsultan Pajak AI + Conersation")
+st.title("🤖 ConsultaxAI – Konsultan Pajak AI (GPT-4 + Manual Memory)")
 st.markdown("Tanyakan apa pun tentang **PPh Orang Pribadi**, berbasis konten Ebook PPh 2025.")
 
 # Input Pertanyaan
@@ -58,7 +57,7 @@ query = st.text_input("Pertanyaan Anda:")
 
 if query:
     with st.spinner("Sedang mencari jawaban..."):
-        response = qa_chain({"question": query})
+        response = qa_chain.invoke({"question": query})
         answer = response["answer"]
         sources = response.get("source_documents", [])
 
@@ -73,5 +72,5 @@ if query:
                 st.markdown(f"- **{title}** – *{source}*")
 
         # Simpan ke memory manual
-        qa_chain.memory.chat_memory.add_user_message(query)
-        qa_chain.memory.chat_memory.add_ai_message(answer)
+        memory.chat_memory.add_user_message(query)
+        memory.chat_memory.add_ai_message(answer)
