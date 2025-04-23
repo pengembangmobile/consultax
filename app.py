@@ -9,11 +9,11 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
 
 # Membaca API Key dari Streamlit Secrets
-os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
+os.environ["OPENAI_API_KEY"] = st.secrets["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"]
 
 # Load FAQ dari JSON
-with open("ConsultaxAI_FAQ_PPh_Orang_Pribadi_130.json", encoding="utf-8") as f:
-    faq_data = json.load(f)
+with open("ConsultaxAI_EbookPPh2025.json", encoding="utf-8") as f:
+
 
 docs = [
     Document(
@@ -56,13 +56,11 @@ query = st.text_input("Pertanyaan Anda:")
 if query:
     with st.spinner("Sedang mencari jawaban..."):
         result = qa_chain.invoke({"question": query})
-        answer = result["answer"]
+        answer = result.get("answer", "Maaf, saya tidak menemukan jawaban yang relevan.")
 
         st.markdown("### 💡 Jawaban:")
         st.write(answer)
 
-        # Simpan context manual ke memory
-        qa_chain.memory.save_context(
-            {"question": query},
-            {"answer": answer}
-        )
+        # Simpan manual ke memory (hindari ValueError)
+        qa_chain.memory.chat_memory.add_user_message(query)
+        qa_chain.memory.chat_memory.add_ai_message(answer)
