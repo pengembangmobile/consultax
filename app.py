@@ -11,22 +11,22 @@ from langchain.memory import ConversationBufferMemory
 # Membaca API Key dari Streamlit Secrets
 os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 
-# Load FAQ dari JSON hasil ebook (format: pertanyaan, jawaban, kategori, sub_kategori)
+# Load konten JSON
 with open("ConsultaxAI_EbookPPh2025_deskripsi.json", encoding="utf-8") as f:
-    faq_data = json.load(f)
+    raw_data = json.load(f)
 
-# Konversi ke Document untuk FAISS
+# Buat dokumen
 docs = [
     Document(
-        page_content=f"Q: {item['pertanyaan']}\nA: {item['jawaban']}",
+        page_content=item['content'],
         metadata={
-            "category": item.get("kategori", ""),
-            "subcategory": item.get("sub_kategori", ""),
-            "source": "Ebook PPh 2025"
+            "title": item.get("title", ""),
+            "category": item.get("category", ""),
+            "source": item.get("source", "")
         }
     )
-    for item in faq_data
-    if "pertanyaan" in item and "jawaban" in item
+    for item in raw_data
+    if item.get("content")
 ]
 
 # Buat vectorstore
@@ -51,7 +51,7 @@ qa_chain = ConversationalRetrievalChain.from_llm(
 # Streamlit UI
 st.set_page_config(page_title="ConsultaxAI (GPT-4)", page_icon="💬")
 st.title("🤖 ConsultaxAI – Konsultan Pajak AI (GPT-4 + Conversational Memory)")
-st.markdown("Tanyakan apa pun tentang **PPh Orang Pribadi**, berbasis Ebook PPh 2025.")
+st.markdown("Tanyakan apa pun tentang **PPh Orang Pribadi**, berbasis konten Ebook PPh 2025.")
 
 # Input Pertanyaan
 query = st.text_input("Pertanyaan Anda:")
@@ -60,10 +60,19 @@ if query:
     with st.spinner("Sedang mencari jawaban..."):
         result = qa_chain.invoke({"question": query})
         answer = result.get("answer", "Maaf, saya tidak menemukan jawaban yang relevan.")
+        sources = result.get("source_documents", [])
 
         st.markdown("### 💡 Jawaban:")
         st.write(answer)
 
-        # Simpan manual ke memory (hindari ValueError)
+        # Tampilkan sumber-sumber konten
+        if sources:
+            st.markdown("#### 📚 Sumber:")
+            for i, doc in enumerate(sources):
+                title = doc.metadata.get("title", "Tidak diketahui")
+                source = doc.metadata.get("source", "")
+                st.markdown(f"- **{title}** – *{source}*")
+
+        # Simpan manual ke memory
         qa_chain.memory.chat_memory.add_user_message(query)
         qa_chain.memory.chat_memory.add_ai_message(answer)
