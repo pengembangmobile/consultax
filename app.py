@@ -13,6 +13,7 @@ os.environ["OPENAI_API_KEY"] = st.secrets["sk-proj-n1JrOKa8Her2qP-kNe-Iri5oZZc57
 
 # Load FAQ dari JSON
 with open("ConsultaxAI_EbookPPh2025.json", encoding="utf-8") as f:
+    faq_data = json.load(f)
 
 
 docs = [
