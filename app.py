@@ -9,7 +9,8 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
 
 # Membaca API Key dari Streamlit Secrets
-os.environ["OPENAI_API_KEY"] = st.secrets["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"]
+os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
+
 
 # Load FAQ dari JSON hasil ebook
 with open("ConsultaxAI_EbookPPh2025.json", encoding="utf-8") as f:
