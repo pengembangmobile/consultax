@@ -11,10 +11,9 @@ from langchain.memory import ConversationBufferMemory
 # Membaca API Key dari Streamlit Secrets
 os.environ["OPENAI_API_KEY"] = st.secrets["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"]
 
-# Load FAQ dari JSON
+# Load FAQ dari JSON hasil ebook
 with open("ConsultaxAI_EbookPPh2025.json", encoding="utf-8") as f:
     faq_data = json.load(f)
-
 
 docs = [
     Document(
@@ -49,7 +48,7 @@ qa_chain = ConversationalRetrievalChain.from_llm(
 # Streamlit UI
 st.set_page_config(page_title="ConsultaxAI (GPT-4)", page_icon="💬")
 st.title("🤖 ConsultaxAI – Konsultan Pajak AI (GPT-4 + Conversational Memory)")
-st.markdown("Tanyakan apa pun tentang **PPh Orang Pribadi**, berbasis FAQ dan regulasi perpajakan.")
+st.markdown("Tanyakan apa pun tentang **PPh Orang Pribadi**, berbasis Ebook PPh 2025.")
 
 # Input Pertanyaan
 query = st.text_input("Pertanyaan Anda:")
