@@ -50,7 +50,7 @@ qa_chain = ConversationalRetrievalChain.from_llm(
 
 # Streamlit UI
 st.set_page_config(page_title="ConsultaxAI (GPT-4)", page_icon="💬")
-st.title("🤖 ConsultaxAI – Konsultan Pajak AI (GPT-4 + Conversational Memory)")
+st.title("🤖 ConsultaxAI – Konsultan Pajak AI + Conersation")
 st.markdown("Tanyakan apa pun tentang **PPh Orang Pribadi**, berbasis konten Ebook PPh 2025.")
 
 # Input Pertanyaan
@@ -58,14 +58,13 @@ query = st.text_input("Pertanyaan Anda:")
 
 if query:
     with st.spinner("Sedang mencari jawaban..."):
-        result = qa_chain.invoke({"question": query})
-        answer = result.get("answer", "Maaf, saya tidak menemukan jawaban yang relevan.")
-        sources = result.get("source_documents", [])
+        response = qa_chain({"question": query})
+        answer = response["answer"]
+        sources = response.get("source_documents", [])
 
         st.markdown("### 💡 Jawaban:")
         st.write(answer)
 
-        # Tampilkan sumber-sumber konten
         if sources:
             st.markdown("#### 📚 Sumber:")
             for i, doc in enumerate(sources):
@@ -73,6 +72,6 @@ if query:
                 source = doc.metadata.get("source", "")
                 st.markdown(f"- **{title}** – *{source}*")
 
-        # Simpan manual ke memory
+        # Simpan ke memory manual
         qa_chain.memory.chat_memory.add_user_message(query)
         qa_chain.memory.chat_memory.add_ai_message(answer)
