@@ -1,3 +1,4 @@
+
 import streamlit as st
 import os
 import json
@@ -10,20 +11,22 @@ from langchain.memory import ConversationBufferMemory
 # Membaca API Key dari Streamlit Secrets
 os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 
-
-# Load FAQ dari JSON hasil ebook
+# Load FAQ dari JSON hasil ebook (format: pertanyaan, jawaban, kategori, sub_kategori)
 with open("ConsultaxAI_EbookPPh2025_deskripsi.json", encoding="utf-8") as f:
     faq_data = json.load(f)
 
+# Konversi ke Document untuk FAISS
 docs = [
     Document(
-        page_content=f"Q: {item['question']}\nA: {item['answer']}",
+        page_content=f"Q: {item['pertanyaan']}\nA: {item['jawaban']}",
         metadata={
-            "category": item.get("category", ""),
-            "source": item.get("source", "")
+            "category": item.get("kategori", ""),
+            "subcategory": item.get("sub_kategori", ""),
+            "source": "Ebook PPh 2025"
         }
     )
     for item in faq_data
+    if "pertanyaan" in item and "jawaban" in item
 ]
 
 # Buat vectorstore
