@@ -1,4 +1,4 @@
-
+i
 import streamlit as st
 import os
 import json
@@ -13,7 +13,7 @@ os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 
 
 # Load FAQ dari JSON hasil ebook
-with open("ConsultaxAI_EbookPPh2025.json", encoding="utf-8") as f:
+with open("ConsultaxAI_EbookPPh2025_deskripsi.json", encoding="utf-8") as f:
     faq_data = json.load(f)
 
 docs = [
