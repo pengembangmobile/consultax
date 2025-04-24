@@ -57,7 +57,7 @@ query = st.text_input("Pertanyaan Anda:")
 
 if query:
     with st.spinner("Sedang mencari jawaban..."):
-        response = qa_chain.invoke({"question": query})
+        response = qa_chain.invoke({"input": query})  # FIXED: gunakan key 'input'
         answer = response["answer"]
         sources = response.get("source_documents", [])
 
