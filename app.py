@@ -34,17 +34,18 @@ embedding = OpenAIEmbeddings()
 db = FAISS.from_documents(docs, embedding)
 retriever = db.as_retriever()
 
-# Buat memory buffer lokal (manual saja, tidak disambungkan ke chain)
+# Buat memory buffer lokal (manual)
 memory = ConversationBufferMemory(
     memory_key="chat_history",
     return_messages=True
 )
 
-# Inisiasi QA Chain (tanpa memory langsung)
+# Inisiasi QA Chain dengan input_key eksplisit
 qa_chain = ConversationalRetrievalChain.from_llm(
     llm=ChatOpenAI(model_name="gpt-4"),
     retriever=retriever,
-    return_source_documents=True
+    return_source_documents=True,
+    input_key="question"
 )
 
 # Streamlit UI
@@ -71,6 +72,6 @@ if query:
                 source = doc.metadata.get("source", "")
                 st.markdown(f"- **{title}** – *{source}*")
 
-        # Simpan manual ke memory
+        # Simpan ke memory manual
         memory.chat_memory.add_user_message(query)
         memory.chat_memory.add_ai_message(answer)
