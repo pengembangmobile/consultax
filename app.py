@@ -40,12 +40,11 @@ memory = ConversationBufferMemory(
     return_messages=True
 )
 
-# Inisiasi QA Chain dengan input_key eksplisit
+# Inisiasi QA Chain tanpa input_key (default is "question")
 qa_chain = ConversationalRetrievalChain.from_llm(
     llm=ChatOpenAI(model_name="gpt-4"),
     retriever=retriever,
-    return_source_documents=True,
-    input_key="question"
+    return_source_documents=True
 )
 
 # Streamlit UI
