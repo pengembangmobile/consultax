@@ -72,6 +72,5 @@ if query:
                 source = doc.metadata.get("source", "")
                 st.markdown(f"- **{title}** – *{source}*")
 
-        # Simpan memory manual
         memory.chat_memory.add_user_message(query)
         memory.chat_memory.add_ai_message(answer)
